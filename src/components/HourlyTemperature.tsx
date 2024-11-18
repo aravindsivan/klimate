@@ -29,7 +29,7 @@ const HourlyTemperature = ({ data }: HourlyTemperatureProps) => {
         <CardTitle>Today's Temperature</CardTitle>
         <CardDescription>Card Description</CardDescription>
       </CardHeader>
-      <CardContent>
+      <CardContent className="pl-0">
         <div className="h-[200px] w-full">
           <ResponsiveContainer width={"100%"} height={"100%"}>
             <LineChart data={chartData}>
