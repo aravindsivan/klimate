@@ -67,7 +67,7 @@ export const FavoriteCityTablet = ({
         </div>
       ) : weather ? (
         <>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <img
               src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
               alt={weather.weather[0].description}
